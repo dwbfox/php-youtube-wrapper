@@ -6,13 +6,7 @@
  * @license GPL v3
  */
 
-/**
- *  Exception Codes Meaning
- * 1 - An invalid URL was passed to the constructor -- isValidURL() returned false
- * 2 - SimpleXMLElement couldn't parse the XML data retrieved from YouTube. Check to see if YouTube changed their API standards
- * 3 - clean_fmt_map() was unable to find the download links within the YouTube video HTML source. Check to see that YouTube has not 
- *     altered their web layout.
- */
+
 class YouTubeException extends Exception {}    
 
 
