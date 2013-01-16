@@ -1,7 +1,7 @@
 <?php
 /**
  * PHP-YouTube-Wrapper
- * @author ATmega/Foxhoundz
+ * @author biru
  * @version 0.5
  * @license GPL v3
  */
