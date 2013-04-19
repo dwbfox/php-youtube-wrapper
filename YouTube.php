@@ -1,17 +1,17 @@
 <?php
 /**
  * PHP-YouTube-Wrapper
- * @author biru
  * @version 0.5
  * @license GPL v3
  */
-
 
 class YouTubeException extends Exception {}    
 
 
 
-
+/*
+* @depricated
+*/
 class youtube_downloader   {
     
 	private $_url;
