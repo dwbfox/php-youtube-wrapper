@@ -80,7 +80,7 @@ class youtube_downloader   {
          *  Returns true on a valid YouTube url or else return false
          */
         public function isValidURL($url) {
-            return preg_match('/http:\/\/www\.youtube\.com\/watch\?v=[A-Za-z0-9-_]{11}/', $url);
+            return preg_match('/https*:\/\/www\.youtube\.com\/watch\?v=[A-Za-z0-9-_]{11}/', $url);
         }
 
 
@@ -244,7 +244,7 @@ class youtube_downloader   {
            exit();
            //echo $e->getMessage();
        }
-       
+       var_dump($yt);
 
        echo '<h1>Video Information</h1>';
        echo '<strong>Title</strong>: ' . $yt->title() . '<br/>';
